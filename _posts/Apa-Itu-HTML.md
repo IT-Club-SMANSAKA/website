@@ -1,3 +1,15 @@
+---
+title: "Apa Itu HTML"
+excerpt: "Belajar tentang HTML dasar sebagai web developer."
+coverImage: "/assets/blog/apa-itu-html/1-hasil-dasar.jpg"
+date: "2021-01-06T02:34:56.237Z"
+author:
+  name: Farid Anwar
+  picture: "/assets/blog/authors/faridanwar.png"
+ogImage:
+  url: "/assets/blog/apa-itu-html/1-hasil-dasar.jpg"
+---
+
 # Apa Itu HTML
 
 Pengertian HTML adalah singkatan dari Hypertext Markup Language, yaitu bahasa markah untuk membuat sebuah halaman website.
@@ -9,8 +21,9 @@ Analogi HTML
 Biar lebih mudah dalam pemahaman, saya kasih analogi ya.
 
 Website itu ada 2 jenis, yaitu:
-1.	Website dinamis, adalah web yang kontennya bisa diupdate dengan mudah menggunakan Content Management System (CMS). Contoh: situs berita
-2.	Website statis, adalah web yang kontennya tidak berubah-ubah. Contoh: profil perusahaan
+
+1. Website dinamis, adalah web yang kontennya bisa diupdate dengan mudah menggunakan Content Management System (CMS). Contoh: situs berita
+2. Website statis, adalah web yang kontennya tidak berubah-ubah. Contoh: profil perusahaan
 
 Nah, untuk membuat sebuah website. Paling tidak dibutuhkan dua buah bahasa pemrograman, yaitu HTML dan CSS.
 
@@ -29,6 +42,7 @@ Tanpa adanya tulang, kita tidak bisa berdiri bukan?
 <hr>
 
 ## Fungsi HTML
+
 - Mengintegrasikan tulisan dan gambar
 - Membuat kumpulan pranala / link
 - Membuat form interaktif
@@ -39,6 +53,7 @@ Tanpa adanya tulang, kita tidak bisa berdiri bukan?
 <hr>
 
 ## Kelebihan HTML
+
 - Mudah dipelajari
 - Sebagai bahasa awal di era Internet
 - Banyak digunakan di seluruh dunia, sehingga dukungan komunitasnya besar
@@ -46,7 +61,9 @@ Tanpa adanya tulang, kita tidak bisa berdiri bukan?
 - Gratis!
 - Bahasanya rapi, terstruktur dan konsisten
 - Sangat mudah diintegrasikan dengan bahasa lain, seperti Javascript, CSS dan PHP
+
 ## Kekurangan HTML
+
 - Jika hanya pakai HTML saja, website tidak bisa dinamis hanya statis dan tampilannya jelek
 - HTML tidak memungkinkan melakukan fungsi logika
 - Jika versi HTML dan browsernya tidak sama, maka semua fitur tidak bisa ditampilkan (contoh: dulu banyak web developer yang menyerah membuat tampilannya keren di internet explorer)
@@ -60,7 +77,6 @@ Untuk PC/Laptop:
 1. Text Editor
 2. Web Browser
 
-
 ## Text Editor
 
 Untuk menulis kode HTML dibutuhkan aplikasi, aplikasi text editor yang umum digunakan ialah:
@@ -68,7 +84,6 @@ Untuk menulis kode HTML dibutuhkan aplikasi, aplikasi text editor yang umum digu
 - [Sublime](https://www.sublimetext.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
-
 
 Sebelumnya, perlu kalian ketahui bahwa struktur penulisan dan syntax sebuah file HTML harus disimpan dengan ekstensi .html.
 
@@ -79,15 +94,16 @@ Berikut ini adalah struktur kode HTML yang paling dasar:
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>ETIS SMANSAKA</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Selamat Datang Di Website Etis IT CLUB</h1>
     <p>Roses are blue Violets are red</p>
-</body>
+  </body>
 </html>
 ```
+
 Menghasilkan hasil seperti ini:
 
 ![hasil-dasar](img/1-hasil-dasar.png)
@@ -101,4 +117,3 @@ Catatan penulisan kode html:
 - Semua yang ditampilkan di web browser ada di `<body>...</body>`
 
 - Semua identitas halaman ditaruh di `<head>...</head>`
-
