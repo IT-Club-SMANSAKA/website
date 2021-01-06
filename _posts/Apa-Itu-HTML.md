@@ -1,13 +1,13 @@
 ---
 title: "Apa Itu HTML"
 excerpt: "Belajar tentang HTML dasar sebagai web developer."
-coverImage: "/assets/blog/apa-itu-html/1-hasil-dasar.jpg"
+coverImage: "/assets/blog/apa-itu-html/1-hasil-dasar.png"
 date: "2021-01-06T02:34:56.237Z"
 author:
   name: Farid Anwar
   picture: "/assets/blog/authors/faridanwar.png"
 ogImage:
-  url: "/assets/blog/apa-itu-html/1-hasil-dasar.jpg"
+  url: "/assets/blog/apa-itu-html/1-hasil-dasar.png"
 ---
 
 # Apa Itu HTML
@@ -106,7 +106,7 @@ Berikut ini adalah struktur kode HTML yang paling dasar:
 
 Menghasilkan hasil seperti ini:
 
-![hasil-dasar](img/1-hasil-dasar.png)
+![hasil-dasar](/assets/apa-itu-html/1-hasil-dasar.png)
 
 Catatan penulisan kode html:
 
